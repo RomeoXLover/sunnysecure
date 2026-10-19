@@ -33,9 +33,9 @@ store/*.sqlite3-*
 logs/
 *.log
 
-# Local scripts with live credentials
+# Local scripts with live credentials (except notify helper)
 scripts/
-!important scripts/README.md
+!scripts/notify.py
 
 # Crypto keys
 *.pem
