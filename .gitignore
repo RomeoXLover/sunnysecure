@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.egg-info/
+*.egg
+*.dist-info/
+build/
+dist/
+.eggs/
+
+# Environments
+.env
+.env.*
+!.env.example
+!.env.*.example
+.venv/
+venv/
+ENV/
+
+# Runtime config with secrets (bot tokens, webhooks, LTC keys)
+config/config.json
+config/*.local.json
+
+# Databases & account stores
+store/*.db
+store/*.sqlite3
+store/*.sqlite3-*
+*.db
+*.sqlite3
+
+# Logs (may contain emails, OTPs, cookies)
+logs/
+*.log
+
+# Local scripts with live credentials
+scripts/
+!important scripts/README.md
+
+# Crypto keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.wif
+*.totp
+*.otp
+id_rsa*
+
+# Captures & forensic dumps
+*.har
+*.har.gz
+*_dump.html
+*_dump.txt
+*_cache.json
+*credentials*.txt
+*accounts*.csv
+*accounts*.json
+
+# PM2 / process
+.pm2/
+pids/
+*.pid
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Web build artifacts & deps
+dashboard/.output/
+dashboard/node_modules/
+dashboard/.tanstack/
+dashboard/.vite/
+dashboard/dist/
+!dashboard/src/lib/
+
+# Python venv in api
+api/.venv/
